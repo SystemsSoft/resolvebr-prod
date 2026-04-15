@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="resolve">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="resolvebr">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>ResolveBR</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#07100A">
+
+  <script>
+    // ── PWA Install Prompt ─────────────────────────────────────
+    let _pwaDeferred = null;
+
+    window.addEventListener('beforeinstallprompt', function (e) {
+      e.preventDefault();
+      _pwaDeferred = e;
+      // Notify Flutter the prompt is ready
+      window.dispatchEvent(new Event('pwaInstallAvailable'));
+    });
+
+    window.addEventListener('appinstalled', function () {
+      _pwaDeferred = null;
+      window.dispatchEvent(new Event('pwaInstalled'));
+    });
+
+    window.isPwaInstallable = function () {
+      return _pwaDeferred !== null;
+    };
+
+    window.triggerPwaInstall = function () {
+      if (!_pwaDeferred) return;
+      _pwaDeferred.prompt();
+      _pwaDeferred.userChoice.then(function () {
+        _pwaDeferred = null;
+      });
+    };
+  </script>
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
