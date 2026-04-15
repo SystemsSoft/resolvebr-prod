@@ -1024,7 +1024,7 @@ p.a6y()
 return p},
 aQW(a){return new A.a6S($.aq,a)},
 aBg(){var s,r,q,p,o=v.G,n=o.window,m=A.aQy(n.navigator)
-if(m==null||m.length===0)return B.qV
+if(m==null||m.length===0)return B.qU
 s=A.b([],t.ss)
 for(n=m.length,r=0;r<m.length;m.length===n||(0,A.z)(m),++r){q=m[r]
 p=new o.Intl.Locale(q)
@@ -7621,8 +7621,8 @@ s=B.d.dX((a-2)/1,0,13)
 r=B.l.dX(B.d.eg(s),0,12)
 q=s-r
 p=1-q
-o=B.r0[r]
-n=B.r0[r+1]
+o=B.r_[r]
+n=B.r_[r+1]
 return new A.aa(p*o.a+q*n.a,p*o.b+q*n.b)},
 aW1(a){var s,r,q,p,o,n,m
 if(a>5){s=a-5
@@ -11481,8 +11481,8 @@ break
 case 4:s=l.a
 s===$&&A.a()
 s=A.bF(s,200)
-r=A.bF(A.a5D(l,B.qW,B.MU),24)
-q=A.bF(A.a5D(l,B.qW,B.NC),32)
+r=A.bF(A.a5D(l,B.qV,B.MU),24)
+q=A.bF(A.a5D(l,B.qV,B.NC),32)
 p=A.bF(l.a,10)
 o=A.bF(l.a,12)
 l.d===$&&A.a()
@@ -11492,8 +11492,8 @@ break
 case 5:s=l.a
 s===$&&A.a()
 s=A.bF(A.Bl(s+240),40)
-r=A.bF(A.a5D(l,B.qY,B.Oe),24)
-q=A.bF(A.a5D(l,B.qY,B.Of),32)
+r=A.bF(A.a5D(l,B.qX,B.Oe),24)
+q=A.bF(A.a5D(l,B.qX,B.Of),32)
 p=A.bF(l.a+15,8)
 o=A.bF(l.a+15,12)
 l.d===$&&A.a()
@@ -12119,7 +12119,7 @@ aFU(a,b,c){if(b!=null&&!b.k(0,B.U))return A.aFj(b.b4(A.aQS(c)),a)
 return a},
 aQS(a){var s,r,q,p,o,n
 if(a<0)return 0
-for(s=0;r=B.qX[s],q=r.a,a>=q;){if(a===q||s+1===6)return r.b;++s}p=B.qX[s-1]
+for(s=0;r=B.qW[s],q=r.a,a>=q;){if(a===q||s+1===6)return r.b;++s}p=B.qW[s-1]
 o=p.a
 n=p.b
 return n+(a-o)/(q-o)*(r.b-n)},
@@ -39464,11 +39464,11 @@ gZC(){var s=this.a
 if(s instanceof A.fe)return s
 return this.a=new A.fe(s)},
 gavs(){var s,r,q,p,o,n=this
-if(n.c===1)return B.r2
+if(n.c===1)return B.r0
 s=n.d
 r=J.bm(s)
 q=r.gG(s)-J.c3(n.e)-n.f
-if(q===0)return B.r2
+if(q===0)return B.r0
 p=[]
 for(o=0;o<q;++o)p.push(r.j(s,o))
 p.$flags=3
@@ -49573,7 +49573,7 @@ n=o.e
 o=o.cx
 r=q.gafP()
 q.a.toString
-return new A.ER(p,p,p,new A.atF(),p,p,p,p,p,n,B.Qc,p,p,p,B.NK,q.gag2(),o,p,B.Zd,s,p,r,p,p,B.qV,!1,!1,p,p,p,new A.pK(q,t.bT))},
+return new A.ER(p,p,p,new A.atF(),p,p,p,p,p,n,B.Qc,p,p,p,B.NK,q.gag2(),o,p,B.Zd,s,p,r,p,p,B.qU,!1,!1,p,p,p,new A.pK(q,t.bT))},
 E(a){var s,r=this.a7P(a)
 this.a.toString
 s=this.d
@@ -60503,8 +60503,8 @@ s=r.Y
 r.eE=s==null?null:s.gMd()
 a.a=!1},
 qI(a,b,c){var s,r,q,p,o=this
-o.kH=A.aHK(o.kH,B.r3)
-o.ip=A.aHK(o.ip,B.r3)
+o.kH=A.aHK(o.kH,B.r1)
+o.ip=A.aHK(o.ip,B.r1)
 s=o.kH
 r=s!=null&&!s.gaa(s)
 s=o.ip
@@ -92090,13 +92090,13 @@ $1(a){return B.wY},
 $S:207}
 A.Vx.prototype={
 E(a){var s=null,r=this.c,q=r?24:12,p=r?56:20,o=r?52:36,n=A.Y(28),m=A.aN(A.m(64,B.e.h()>>>16&255,B.e.h()>>>8&255,B.e.h()&255),1.5),l=A.b([new A.aI(-4,B.w,A.m(20,B.e.h()>>>16&255,B.e.h()>>>8&255,B.e.h()&255),B.j,40)],t.V),k=t.p
-r=r?A.ae(A.b([A.bn(new A.Gf(s),5,s),B.W0,A.bn(new A.Gg(B.qU,s),5,s)],k),B.o,B.h,B.k,0):A.at(A.b([new A.Gf(s),B.e3,new A.Gg(B.qU,s)],k),B.r,B.h,B.k)
+r=r?A.ae(A.b([A.bn(new A.Gf(s),5,s),B.W0,A.bn(new A.Gg(B.r3,s),5,s)],k),B.o,B.h,B.k,0):A.at(A.b([new A.Gf(s),B.e3,new A.Gg(B.r3,s)],k),B.r,B.h,B.k)
 return A.X(s,r,B.i,s,s,new A.a_(B.ah,s,m,n,l,s,B.p),s,s,new A.Z(q,24,q,24),new A.Z(p,o,p,o),s,s,1/0)}}
 A.Gf.prototype={
 E(a){var s=null,r=A.bE(a,s,t.w).w.a.a<860,q=A.m(31,B.e.h()>>>16&255,B.e.h()>>>8&255,B.e.h()&255),p=A.Y(100),o=A.aN(A.m(102,B.e.h()>>>16&255,B.e.h()>>>8&255,B.e.h()&255),1),n=t.p
 p=A.X(s,A.ae(A.b([B.KB,B.d0,A.H("LAN\xc7AMENTO: 20 DE MAIO",s,s,s,A.C().$4$color$fontSize$fontWeight$letterSpacing(B.D,10.5,B.J,1.2),s,s)],n),B.o,B.h,B.V,0),B.i,s,s,new A.a_(q,s,o,p,s,s,B.p),s,s,s,B.fI,s,s,s)
 q=A.H("Seja dos\nprimeiros a\nanunciar seu\nneg\xf3cio.",s,s,s,A.C().$5$color$fontSize$fontWeight$height$letterSpacing(B.f,r?28:34,B.aA,1.1,-1.2),s,s)
-return A.at(A.b([p,B.Z,q,B.aZ,A.H("Estamos construindo a maior plataforma de conex\xe3o para a di\xe1spora brasileira. Cadastre seu servi\xe7o, empresa ou perfil de influenciador gratuitamente, receba recomenda\xe7\xf5es de clientes e seja encontrado quando lan\xe7armos em cada cidade via geolocaliza\xe7\xe3o.",s,s,s,A.C().$3$color$fontSize$height(B.b9,r?13.5:14.5,1.7),s,s),B.cJ,A.rr(B.cr,A.b([A.asn("Cadastrar meu neg\xf3cio",B.dL,!0,!0,s),A.aCp(A.H("Saber mais",s,s,s,A.C().$5$color$decoration$decorationColor$fontSize$fontWeight(B.H,B.f7,B.am,13.5,B.a0),s,s),new A.as_(),s)],n),12,12),B.aZ,A.ae(A.b([B.Kb,B.c9,new A.dX(1,B.c0,A.H("Sem cart\xe3o de cr\xe9dito \u2022 Sem contrato \u2022 Cancele quando quiser",s,s,s,A.C().$2$color$fontSize(B.am,11.5),s,s),s)],n),B.o,B.h,B.k,0)],n),B.r,B.h,B.k)}}
+return A.at(A.b([p,B.Z,q,B.aZ,A.H("Estamos construindo a maior plataforma de conex\xe3o para a comunidade brasileira. Cadastre seu servi\xe7o, empresa ou perfil de influenciador gratuitamente, receba recomenda\xe7\xf5es de clientes e seja encontrado via geolocaliza\xe7\xe3o.",s,s,s,A.C().$3$color$fontSize$height(B.b9,r?13.5:14.5,1.7),s,s),B.cJ,A.rr(B.cr,A.b([A.asn("Cadastrar meu neg\xf3cio",B.dL,!0,!0,s),A.aCp(A.H("Saber mais",s,s,s,A.C().$5$color$decoration$decorationColor$fontSize$fontWeight(B.H,B.f7,B.am,13.5,B.a0),s,s),new A.as_(),s)],n),12,12),B.aZ,A.ae(A.b([B.Kb,B.c9,new A.dX(1,B.c0,A.H("Sem cart\xe3o de cr\xe9dito \u2022 Sem contrato \u2022 Cancele quando quiser",s,s,s,A.C().$2$color$fontSize(B.am,11.5),s,s),s)],n),B.o,B.h,B.k,0)],n),B.r,B.h,B.k)}}
 A.as_.prototype={
 $0(){},
 $S:0}
@@ -92200,7 +92200,7 @@ $0(){return this.a.d=!1},
 $S:0}
 A.VK.prototype={
 E(a){var s=null,r=this.c,q=r?80:24,p=A.H("Simples, r\xe1pido e\nperto de voc\xea.",s,s,s,A.C().$5$color$fontSize$fontWeight$height$letterSpacing(B.f,r?38:28,B.J,1.12,-1.2),s,s),o=t.MT
-r=r?A.ae(new A.dL(B.r1,o).gdH().dL(0,new A.asC(),t.nx).dd(0),B.r,B.h,B.k,0):A.at(new A.dL(B.r1,o).gdH().dL(0,new A.asD(),t.iF).dd(0),B.o,B.h,B.k)
+r=r?A.ae(new A.dL(B.r2,o).gdH().dL(0,new A.asC(),t.nx).dd(0),B.r,B.h,B.k,0):A.at(new A.dL(B.r2,o).gdH().dL(0,new A.asD(),t.iF).dd(0),B.o,B.h,B.k)
 return A.X(s,A.at(A.b([new A.mn("COMO VAI FUNCIONAR",s),B.aS,p,B.nk,r],t.p),B.r,B.h,B.k),B.i,B.aI,s,s,s,s,s,new A.Z(q,80,q,80),s,s,s)}}
 A.asC.prototype={
 $1(a){var s=a.a,r=s<2?24:0,q=a.b.a
@@ -92367,7 +92367,7 @@ r=A.aN(A.m(18,B.f.h()>>>16&255,B.f.h()>>>8&255,B.f.h()&255),1)
 q=j?A.ae(A.b([new A.jB(B.qq,"12.400+",l,n),new A.xI(n),new A.jB(B.iM,"98%","Recomenda\xe7\xf5es positivas",n),new A.xI(n),new A.jB(B.qp,"40+","Pa\xedses representados",n),new A.xI(n),new A.jB(B.iL,"8.700+","Membros ativos",n)],e),B.o,B.x_,B.k,0):A.rr(B.cr,A.b([new A.jB(B.qq,"12.400+",l,n),new A.jB(B.iM,"98%","Positivas",n),new A.jB(B.qp,"40+","Pa\xedses",n),new A.jB(B.iL,"8.700+","Membros",n)],e),16,24)
 s=A.X(n,q,B.i,n,n,new A.a_(B.ah,n,r,s,n,n,B.p),n,n,n,B.Ir,n,n,n)
 r=t.sz
-r=j?A.ae(new A.dL(B.r_,r).gdH().dL(0,new A.are(),t.nx).dd(0),B.r,B.h,B.k,0):A.at(new A.dL(B.r_,r).gdH().dL(0,new A.arf(),t.iF).dd(0),B.o,B.h,B.k)
+r=j?A.ae(new A.dL(B.qZ,r).gdH().dL(0,new A.are(),t.nx).dd(0),B.r,B.h,B.k,0):A.at(new A.dL(B.qZ,r).gdH().dL(0,new A.arf(),t.iF).dd(0),B.o,B.h,B.k)
 q=A.Y(18)
 p=A.b([A.m(51,B.y.h()>>>16&255,B.y.h()>>>8&255,B.y.h()&255),A.m(89,B.bQ.h()>>>16&255,B.bQ.h()>>>8&255,B.bQ.h()&255)],t.Y)
 o=A.aN(A.m(46,B.e.h()>>>16&255,B.e.h()>>>8&255,B.e.h()&255),1)
@@ -92972,9 +92972,9 @@ r=A.Y(14)
 q=A.aN(A.m(B.d.a0(76.5),B.y.h()>>>16&255,B.y.h()>>>8&255,B.y.h()&255),1)
 return A.X(p,A.at(A.b([new A.be(new A.Z(i,h,g,0),e,p),new A.be(B.pv,d,p),new A.be(new A.Z(c,0,b,0),a,p),new A.be(new A.Z(o,o,o,o),A.X(p,A.ae(A.b([A.X(p,B.KN,B.i,p,p,new A.a_(A.m(38,B.y.h()>>>16&255,B.y.h()>>>8&255,B.y.h()&255),p,p,A.Y(10),p,p,B.p),p,p,p,B.pJ,p,p,p),B.f4,A.bn(A.at(A.b([A.H("Gratuito \xb7 Dispon\xedvel ap\xf3s o lan\xe7amento em 20 de maio",p,p,p,A.C().$3$color$fontSize$fontWeight(B.ac,13,B.C),p,p),B.hp,A.H("Cadastre-se agora e tenha acesso a todas estas funcionalidades sem custo algum assim que a plataforma for lan\xe7ada.",p,p,p,A.C().$3$color$fontSize$height(B.H,12,1.5),p,p)],f),B.r,B.h,B.k),1,p)],f),B.o,B.h,B.k,0),B.i,p,p,new A.a_(s,p,q,r,p,p,B.p),p,p,p,B.pC,p,p,1/0),p)],f),B.r,B.h,B.k),B.i,p,p,new A.a_(p,p,k,m,j,new A.di(B.aT,B.bA,B.ao,l,p,p),B.p),p,p,new A.Z(n,8,n,8),p,p,p,p)},
 a7A(){return A.aGd(B.oB,new A.arY(),6,B.mv,!0)},
-a7B(){return A.at(new A.dL(B.qZ,t.hk).gdH().dL(0,new A.arZ(),t.iF).dd(0),B.o,B.h,B.k)}}
+a7B(){return A.at(new A.dL(B.qY,t.hk).gdH().dL(0,new A.arZ(),t.iF).dd(0),B.o,B.h,B.k)}}
 A.arY.prototype={
-$2(a,b){var s=B.qZ[b]
+$2(a,b){var s=B.qY[b]
 return new A.rJ(s.a,s.b,s.c,b,null)},
 $S:613}
 A.arZ.prototype={
@@ -98023,7 +98023,7 @@ B.TR=new A.xg(["Ana Encanadora","Encanamento","1.2 km","\ud83d\udd27",B.bF])
 B.TP=new A.xg(["Pedro Chaveiro","Chaveiro 24h","2.1 km","\ud83d\udd11",B.ac])
 B.M_=s([B.TQ,B.TR,B.TP],A.az("x<+(j,j,j,j,v)>"))
 B.qe=new A.ak(62987,"MaterialIcons",!1)
-B.TH=new A.bY(B.qe,"Instagram",B.i1)
+B.TG=new A.bY(B.qe,"Instagram",B.i1)
 B.JO=new A.ak(983203,"MaterialIcons",!1)
 B.Gk=new A.v(1,0.4117647058823529,0.788235294117647,0.8156862745098039,B.m)
 B.Tp=new A.bY(B.JO,"TikTok",B.Gk)
@@ -98035,8 +98035,8 @@ B.Gg=new A.v(1,0.09411764705882353,0.4666666666666667,0.9490196078431372,B.m)
 B.Tu=new A.bY(B.Jv,"Facebook",B.Gg)
 B.Jq=new A.ak(63025,"MaterialIcons",!1)
 B.Gx=new A.v(1,0.1450980392156863,0.8274509803921568,0.4,B.m)
-B.TG=new A.bY(B.Jq,"WhatsApp",B.Gx)
-B.M1=s([B.TH,B.Tp,B.Ts,B.Tu,B.TG],A.az("x<+(ak,j,v)>"))
+B.TF=new A.bY(B.Jq,"WhatsApp",B.Gx)
+B.M1=s([B.TG,B.Tp,B.Ts,B.Tu,B.TF],A.az("x<+(ak,j,v)>"))
 B.Mn=s([4,9,14,19],t.t)
 B.O8=s([137,80,78,71,13,10,26,10],t.Z)
 B.L2=new A.ni(0,"png")
@@ -98143,12 +98143,6 @@ B.JF=new A.ak(63615,"MaterialIcons",!1)
 B.T5=new A.aa(B.JF,"Log\xedstica")
 B.SS=new A.aa(B.qe,"Fotografia")
 B.N0=s([B.SB,B.T6,B.T_,B.SX,B.SU,B.Th,B.SJ,B.SL,B.T5,B.SS],A.az("x<+(ak,j)>"))
-B.Tx=new A.bY(B.lR,"Cadastro 100% gratuito","Sem mensalidade, sem taxa de ades\xe3o, sem contrato.")
-B.TC=new A.bY(B.ck,"Encontrado por geolocaliza\xe7\xe3o","Clientes te encontram pelo mapa, na cidade em que voc\xea mora.")
-B.Tt=new A.bY(B.iM,"Recomenda\xe7\xf5es de servi\xe7os","Quem cadastrar seu an\xfancio receber\xe1 recomenda\xe7\xf5es de clientes, aumentando sua credibilidade e visibilidade na plataforma.")
-B.Tw=new A.bY(B.qi,"Android, iOS e Web","Plataforma multiplataforma \u2014 acesse de qualquer dispositivo.")
-B.TF=new A.bY(B.qn,"Aviso no lan\xe7amento","Voc\xea ser\xe1 notificado assim que lan\xe7armos na sua cidade.")
-B.qU=s([B.Tx,B.TC,B.Tt,B.Tw,B.TF],t.UT)
 B.b8=new A.eY(0,"icon")
 B.bm=new A.eY(1,"input")
 B.aw=new A.eY(2,"label")
@@ -98162,16 +98156,16 @@ B.ct=new A.eY(9,"counter")
 B.dp=new A.eY(10,"container")
 B.N7=s([B.b8,B.bm,B.aw,B.bx,B.by,B.bz,B.au,B.be,B.cs,B.ct,B.dp],A.az("x<eY>"))
 B.Oo=new A.lr("en",null,"US")
-B.qV=s([B.Oo],t.ss)
-B.qW=s([0,41,61,101,131,181,251,301,360],t.n)
+B.qU=s([B.Oo],t.ss)
+B.qV=s([0,41,61,101,131,181,251,301,360],t.n)
 B.a2j=new A.mj(0,0)
 B.a2o=new A.mj(1,0.05)
 B.a2m=new A.mj(3,0.08)
 B.a2n=new A.mj(6,0.11)
 B.a2l=new A.mj(8,0.12)
 B.a2k=new A.mj(12,0.14)
-B.qX=s([B.a2j,B.a2o,B.a2m,B.a2n,B.a2l,B.a2k],A.az("x<mj>"))
-B.qY=s([0,21,51,121,151,191,271,321,360],t.n)
+B.qW=s([B.a2j,B.a2o,B.a2m,B.a2n,B.a2l,B.a2k],A.az("x<mj>"))
+B.qX=s([0,21,51,121,151,191,271,321,360],t.n)
 B.TJ=new A.bY(B.iK,"Editar perfil","Atualize seus dados, foto e descri\xe7\xe3o a qualquer momento.")
 B.TL=new A.bY(B.qm,"Visibilidade no mapa","Seja encontrado por geolocaliza\xe7\xe3o pelos imigrantes da sua cidade.")
 B.TB=new A.bY(B.iM,"Indica\xe7\xf5es","Receba e gerencie recomenda\xe7\xf5es de clientes satisfeitos.")
@@ -98179,7 +98173,7 @@ B.Tr=new A.bY(B.lW,"Avalia\xe7\xf5es","Colete avalia\xe7\xf5es verificadas de cl
 B.JK=new A.ak(983082,"MaterialIcons",!1)
 B.TD=new A.bY(B.JK,"Notifica\xe7\xf5es","Receba alertas quando clientes demonstrarem interesse no seu servi\xe7o.")
 B.Ty=new A.bY(B.qj,"\xc1rea de Atua\xe7\xe3o Din\xe2mica","Fa\xe7a check-in na \xe1rea onde est\xe1 a trabalhar e exiba sua localiza\xe7\xe3o atual com prazo de disponibilidade.")
-B.qZ=s([B.TJ,B.TL,B.TB,B.Tr,B.TD,B.Ty],t.UT)
+B.qY=s([B.TJ,B.TL,B.TB,B.Tr,B.TD,B.Ty],t.UT)
 B.Ng=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
 B.Ds=new A.KZ(2,"outer")
 B.oR=new A.v(0.09803921568627451,0,0,0,B.m)
@@ -98204,7 +98198,7 @@ B.TV=new A.rY(["Ana Carvalho","\ud83c\uddf5\ud83c\uddf9","Lisboa \xb7 Portugal",
 B.TU=new A.rY(["Rafael Torres","\ud83c\uddec\ud83c\udde7","Londres \xb7 Reino Unido","Advocacia","Dra. Beatriz Lima",5,"A Beatriz me orientou no processo de visto de forma incr\xedvel. Resolveu tudo remotamente, sem burocracia. N\xe3o precisei sair de casa. Melhor investimento que fiz desde que cheguei aqui.","h\xe1 5 dias",B.ac])
 B.TS=new A.rY(["Juliana Matos","\ud83c\udde9\ud83c\uddea","Berlim \xb7 Alemanha","Beleza","Studio BR Hair",5,"Finalmente achei algu\xe9m que entende o cabelo brasileiro em Berlim! A Mariana faz milagres. Me sinto em casa no sal\xe3o dela. J\xe1 indiquei pras minhas amigas todas!","h\xe1 1 semana",B.i1])
 B.TT=new A.rY(["Diego Ferreira","\ud83c\uddfa\ud83c\uddf8","Miami \xb7 EUA","Culin\xe1ria","Tempero Brasileiro",5,"Contratei o chef Bruno para um evento de 80 pessoas. Comida incr\xedvel, salgadinhos, brigadeiro, tudo impec\xe1vel. Os americanos presentes adoraram e perguntaram contato!","h\xe1 2 semanas",B.oV])
-B.r_=s([B.TV,B.TU,B.TS,B.TT],A.az("x<+(j,j,j,j,j,k,j,j,v)>"))
+B.qZ=s([B.TV,B.TU,B.TS,B.TT],A.az("x<+(j,j,j,j,j,k,j,j,v)>"))
 B.bK=new A.fx(1,"fuchsia")
 B.Nx=s([B.as,B.bK,B.T,B.bL,B.b4,B.bM],A.az("x<fx>"))
 B.CL=new A.wr(0,"topLeft")
@@ -98230,7 +98224,7 @@ B.Tj=new A.aa(0.63903989,0.07759639)
 B.SQ=new A.aa(0.66416338,0.0734653)
 B.SH=new A.aa(0.68675338,0.06974996)
 B.Tc=new A.aa(0.70678034,0.06529512)
-B.r0=s([B.Tg,B.Tf,B.SW,B.T1,B.Te,B.SE,B.SR,B.SY,B.SP,B.Ta,B.Tj,B.SQ,B.SH,B.Tc],A.az("x<+(K,K)>"))
+B.r_=s([B.Tg,B.Tf,B.SW,B.T1,B.Te,B.SE,B.SR,B.SY,B.SP,B.Ta,B.Tj,B.SQ,B.SH,B.Tc],A.az("x<+(K,K)>"))
 B.NA=s(["a","b","c"],t.s)
 B.NC=s([35,30,20,25,30,35,30,25,25],t.n)
 B.NF=s(["click","scroll"],t.s)
@@ -98238,13 +98232,8 @@ B.Ew=new A.mI()
 B.ha=new A.Qy(1,"page")
 B.jr=new A.eF(B.bp,B.ha)
 B.NG=s([B.Ew,B.jr],A.az("x<b6>"))
-B.TO=new A.xf([B.ck,"1","Ative sua localiza\xe7\xe3o","A plataforma usa geolocaliza\xe7\xe3o para mostrar prestadores e influenciadores brasileiros pr\xf3ximos a voc\xea, em qualquer cidade do mundo."])
-B.JI=new A.ak(63647,"MaterialIcons",!1)
-B.TN=new A.xf([B.JI,"2","Explore perfis por categoria","Filtre por tipo de servi\xe7o, avalia\xe7\xe3o e idioma. Veja portf\xf3lios e avalia\xe7\xf5es reais de outros imigrantes."])
-B.TM=new A.xf([B.qf,"3","Conecte-se diretamente","Entre em contato pelo app. Negocie, contrate e avalie \u2014 tudo em um s\xf3 lugar, no Android, iOS ou Web."])
-B.r1=s([B.TO,B.TN,B.TM],A.az("x<+(ak,j,j,j)>"))
 B.NO=s([],t.QP)
-B.r3=s([],A.az("x<b0b>"))
+B.r1=s([],A.az("x<b0b>"))
 B.NV=s([],t.D)
 B.NT=s([],t.fJ)
 B.NW=s([],t.ER)
@@ -98261,11 +98250,22 @@ B.NU=s([],t.AS)
 B.a3Q=s([],t.p)
 B.NS=s([],t.n)
 B.NJ=s([],t.t)
-B.r2=s([],t.ee)
+B.r0=s([],t.ee)
 B.NR=s([],t.XS)
+B.TM=new A.xf([B.ck,"1","Ative sua localiza\xe7\xe3o","A plataforma usa geolocaliza\xe7\xe3o para mostrar prestadores e influenciadores brasileiros pr\xf3ximos a voc\xea"])
+B.JI=new A.ak(63647,"MaterialIcons",!1)
+B.TO=new A.xf([B.JI,"2","Explore perfis por categoria","Filtre por tipo de servi\xe7o, avalia\xe7\xe3o e idioma. Veja portf\xf3lios e avalia\xe7\xf5es reais de outros imigrantes."])
+B.TN=new A.xf([B.qf,"3","Conecte-se diretamente","Entre em contato pelo app. Negocie, contrate e avalie \u2014 tudo em um s\xf3 lugar, no Android, iOS ou Web."])
+B.r2=s([B.TM,B.TO,B.TN],A.az("x<+(ak,j,j,j)>"))
 B.jc=new A.f(0,2)
 B.E4=new A.aI(0.75,B.w,B.oR,B.jc,1.5)
 B.O2=s([B.E4],t.V)
+B.Tx=new A.bY(B.lR,"Cadastro 100% gratuito","Sem mensalidade, sem taxa de ades\xe3o, sem contrato.")
+B.TC=new A.bY(B.ck,"Encontrado por geolocaliza\xe7\xe3o","Clientes te encontram pelo mapa, na cidade em que voc\xea mora.")
+B.Tt=new A.bY(B.iM,"Recomenda\xe7\xf5es de servi\xe7os","Quem cadastrar seu an\xfancio receber\xe1 recomenda\xe7\xf5es de clientes, aumentando sua credibilidade e visibilidade na plataforma.")
+B.Tw=new A.bY(B.qi,"Android, iOS e Web","Plataforma multiplataforma \u2014 acesse de qualquer dispositivo.")
+B.TH=new A.bY(B.qn,"Aviso no lan\xe7amento","Voc\xea ser\xe1 notificado assim que lan\xe7armos.")
+B.r3=s([B.Tx,B.TC,B.Tt,B.Tw,B.TH],t.UT)
 B.fQ=s([B.ds,B.d7,B.hK,B.hL,B.ks],t.QP)
 B.MG=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
 B.NH=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
